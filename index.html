@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./modules/index.css">
+  
+  <title>Awesome Books</title>
+</head>
+<body>
+  <header>
+    <div class="top-nav">
+      <span>Awesome Books</span>
+      <nav>
+        <ul>
+          <li><a href="#" id="books-link">List</a></li>
+          <li><a href="#" id="add-book-link">Add Book Form</a></li>
+          <li><a href="#" id="contact-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="date-container" id="date"></div>
+  </header>
+
+  <main>
+    <section id="books-section">
+      <h2 class="book-title">All Awesome Books</h2>
+      <div id="books-list" class="book-stack"></div>
+    </section>
+
+    <section id="add-book-section">
+      <h2 class="book-title">Add Book Form</h2>
+      <form id="add-book-form" class="add-book-form">
+        <div>
+          <input type="text" id="title" name="title" required placeholder="Title:">
+        </div>
+        <div>
+          <input type="text" id="author" name="author" required placeholder="Author:">
+        </div>
+        <div>
+          <input type="text" id="genre" name="genre" required placeholder="Genre:">
+        </div>
+        <div>
+          <input type="text" id="year" name="year" required placeholder="Year:">
+        </div>
+        <button type="submit">Add Book</button>
+      </form>
+    </section>
+
+    <section id="contact-section">
+      <h2 class="book-title">Contact Information</h2>
+      <div class="contact-section">
+        <p>Do you have any questions or you just want to say "Hello"? <br> You can reach out to us!!</p>
+        <ul>
+          <li>Email: luisemiliorojas@hotmail.com</li>
+          <li>Phone: +57 (318) 775 76 20</li>
+          <li>Address: 123 Street, Neiva, Colombia</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Awesome Books. All rights reserved.</p>
+  </footer>
+
+  
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
