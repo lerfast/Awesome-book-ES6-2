@@ -1,4 +1,4 @@
-export function handleFormSubmit(event) {
+export const handleFormSubmit = (event) => {
   event.preventDefault();
 
   const title = document.getElementById('title').value;
@@ -26,7 +26,7 @@ export function handleFormSubmit(event) {
   removeButton.addEventListener('click', () => {
     bookElement.remove();
   });
-}
+};
 
 export default {
   handleFormSubmit,

@@ -1,4 +1,4 @@
-export function showBooksSection() {
+export const showBooksSection = () => {
   const booksSection = document.getElementById('books-section');
   const addBookSection = document.getElementById('add-book-section');
   const contactSection = document.getElementById('contact-section');
@@ -6,9 +6,9 @@ export function showBooksSection() {
   booksSection.style.display = 'block';
   addBookSection.style.display = 'none';
   contactSection.style.display = 'none';
-}
+};
 
-export function showAddBookSection() {
+export const showAddBookSection = () => {
   const booksSection = document.getElementById('books-section');
   const addBookSection = document.getElementById('add-book-section');
   const contactSection = document.getElementById('contact-section');
@@ -16,9 +16,9 @@ export function showAddBookSection() {
   booksSection.style.display = 'none';
   addBookSection.style.display = 'block';
   contactSection.style.display = 'none';
-}
+};
 
-export function showContactSection() {
+export const showContactSection = () => {
   const booksSection = document.getElementById('books-section');
   const addBookSection = document.getElementById('add-book-section');
   const contactSection = document.getElementById('contact-section');
@@ -26,4 +26,4 @@ export function showContactSection() {
   booksSection.style.display = 'none';
   addBookSection.style.display = 'none';
   contactSection.style.display = 'block';
-}
+};
